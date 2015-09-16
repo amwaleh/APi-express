@@ -2,7 +2,7 @@ var express = require('express');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-//mongoose.connect('mongodb://localhost:27017/rest-test');
+mongoose.connect('mongodb://admin:blade16@ds059722.mongolab.com:59722/store');
 
 var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
