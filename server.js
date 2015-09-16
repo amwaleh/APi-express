@@ -12,9 +12,7 @@ app.use(bodyParser.json())
 
 app.use('/api',require('./routes/api'))
 
-app.get('/', function (req,res){
-	res.send('working');
-});
+
 
 app.listen(port_number);
 console.log('API is runnning on port' +port_number);
