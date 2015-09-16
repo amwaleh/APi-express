@@ -17,4 +17,4 @@ app.get('/', function (req,res){
 });
 
 app.listen(port_number);
-console.log('API is runnning on port 3000')
+console.log('API is runnning on port' +port_number);
